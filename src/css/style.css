@@ -242,14 +242,14 @@ select {
 }
 .bags-collection-img
 {
-    background-image: url("//My-UI-Portfolio/public/images/bag-collection.jpg");
+    background-image: url("/My-UI-Portfolio/public/images/bag-collection.jpg");
     width: 34%;
     background-position: bottom;
     text-align: center;
 }
 .printed-mens-img
 {
-    background-image: url("//My-UI-Portfolio/public/images/printed-mens-shirt.jpg");
+    background-image: url("/My-UI-Portfolio/public/images/printed-mens-shirt.jpg");
     width: 62%;
     background-size: cover;
     background-position: center;
