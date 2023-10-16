@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landkit</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-around;
+            margin: 25px;
+        }
+        .brand-name
+        {
+            color: blue;
+            font-size: 35px;
+            font-weight: bold;
+        }
+        .nav-name span
+        {
+            padding-right: 20px;
+            color: rgba(135, 135, 138, 0.951);
+        }
+        .btn-buy
+        {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border: none;
+            font-size: 19px;
+            border-radius: 5px;
+        }
+        main
+        {
+            margin-top: 130px;
+        }
+        .main-div
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 180px;
+        }
+        .main-title1, .main-title2
+        {
+            font-size: 50px;
+            line-height: 70px;
+        }
+        .main-title1 span{
+            color: blue;
+        }
+        .main-subtitle
+        {
+            font-size: 23px;
+            padding-top: 60px;
+            line-height: 40px;
+            color: rgb(137, 137, 169);
+        }
+        .btn-main, .btn-doc
+        {
+            padding: 15px;
+            font-size: 15px;
+            margin-right: 7px;
+            border: none;
+            margin-top: 150px;
+            border-radius: 5px;
+            width: 180px;
+
+        }
+        .btn-main
+        {
+            background-color: blue;
+            color: white;
+        }
+        .btn-doc
+        {
+            background-color: rgb(213, 213, 248);
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <span class="brand-name">Landkit.</span>
+        </div>
+        <div class="nav-name">
+            <span>Landings</span>
+            <span>Pages</span>
+            <span>Accounts</span>
+            <span>Documentation</span>
+        </div>
+        <div>
+            <button class="btn-buy">Buy now</button>
+        </div>
+    </header>
+    <section>
+        <main>
+            <img src="public/images/landkit.jpg" alt="landkit-bg-img" align="right" width="650" hspace="60">
+            <div class="main-div">
+                <div>
+                    <span class="main-title1">Welcome to <span>Landkit.</span></span><br>
+                    <span class="main-title2">Develop anything.</span>
+                    
+                </div>
+                <div class="main-subtitle">
+                    <span>Build a beautiful, modern website with flexible Bootstrap components built from scratch.</span>
+                </div>
+                <div>
+                    <button class="btn-main">View all pages <span class="bi bi-arrow-right"></span></button>
+                    <button class="btn-doc">Documentation</button>
+                </div>
+            </div>
+        </main>
+    </section>
+</body>
+</html>

@@ -1,0 +1,306 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    font-size: 14px;
+}
+
+.nav1 {
+    padding: 6px;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgrey;
+}
+
+.nav1-div {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+select {
+    border: none;
+    border-right: 1px solid lightgray;
+    margin-right: 5px;
+    background-color: lightgray;
+}
+
+.country {
+    margin-left: 50px;
+}
+
+.nav1-div2 a:not(:last-child) {
+    margin-right: 15px;
+
+}
+
+.nav1-div2 a {
+    color: #000;
+}
+
+.nav1-div3 i {
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0 25px 0;
+    align-items: center;
+}
+
+.logo-name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav2-div1 a,
+.nav2-div2 a {
+    padding-right: 25px;
+}
+
+.count {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 1px;
+    font-size: 8px;
+    position: absolute;
+    right: 150px;
+    top: 59px;
+}
+
+.cart {
+    position: relative;
+}
+
+.nav2-div2 a {
+    padding-right: 15px;
+}
+
+.header-offer {
+    width: 100%;
+    margin-top: -8px;
+}
+
+.entry-point {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    height: 600px;
+    margin-top: 25px;
+}
+
+.women,
+.men,
+.kid {
+    background-size: 100% 100%;
+    /* opacity: 0.7;  different criteria*/
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.women::after,
+.men::after,
+.kid::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+
+.women:hover::after,
+.men:hover::after,
+.kid:hover::after {
+    background-color: transparent;
+}
+
+.women {
+    background-image: url("//My-UI-Portfolio/public/images/women-fashion-img.jpg");
+}
+
+.men {
+    background-image: url("//My-UI-Portfolio/public/images/men-fashion-img.jpg");
+}
+
+.kid {
+    background-image: url("//My-UI-Portfolio/public/images/kis1-fashion-img.jpg");
+}
+
+
+/* .women:hover, .men:hover, .kid:hover
+{
+    opacity: 1;
+} */
+.women a,
+.men a,
+.kid a {
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 70px;
+    text-shadow: 4px 3px 2px black;
+}
+
+.shop-btn {
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    width: 180px;
+}
+
+.bi-arrow-right {
+    font-weight: bold;
+}
+
+.policy-wrapper {
+    width: 100%;
+}
+
+.policy-feature {
+    width: 80%;
+    margin: 40px auto 30px auto;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shipping {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.policy-shipping-icon {
+    margin-right: 23px;
+    color: tomato;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.policy-shipping-heading {
+    color: tomato;
+    font-weight: bold;
+}
+.policy-text
+{
+    font-size: 14px;
+}
+.title-container
+{
+    text-align: center;
+}
+.title
+{
+    margin-top: 20px;
+    font-size: 45px;
+    color: black;
+    font-weight: bolder;
+}
+.sub-title
+{
+    margin-top: 100px;
+    font-weight: bold;
+    color: rgb(102, 99, 99);
+}
+.sub-title2
+{
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(77, 75, 75);
+    line-height: 25px;
+    margin-bottom: 70px;
+}
+.best-pick-images
+{
+    width: 75%;
+    margin: auto;
+    height: 430px;
+}
+.pick-img-div1, .pick-img-div2
+{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+.bags-collection-img
+{
+    background-image: url("//My-UI-Portfolio/public/images/bag-collection.jpg");
+    width: 34%;
+    background-position: bottom;
+    text-align: center;
+}
+.printed-mens-img
+{
+    background-image: url("//My-UI-Portfolio/public/images/printed-mens-shirt.jpg");
+    width: 62%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* padding-top: 50%; */
+
+}
+.offer-tag{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 30px;
+    right: 60px;
+}
+.offer-tag p
+{
+    font-size: 30px;
+}
+.bags-collection-text, .printed-mens-text
+{
+    padding-top: 50%;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    padding-bottom: 20px;
+}
+.bags-collection-btn
+{
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    text-shadow: 1px 1px 2px black;
+    transition:  padding .5s;
+}
+.bags-collection-img:hover span, .printed-mens-img:hover span
+{
+    padding-left: 10px;
+    transition: .5s;
+}
+.printed-mens-text
+{
+    color: #000;
+    text-shadow: 1px 1px 3px gray;
+}
