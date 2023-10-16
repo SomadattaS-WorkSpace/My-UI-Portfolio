@@ -133,15 +133,15 @@ select {
 }
 
 .women {
-    background-image: url("//My-UI-Portfolio/public/images/women-fashion-img.jpg");
+    background-image: url("/My-UI-Portfolio/public/images/women-fashion-img.jpg");
 }
 
 .men {
-    background-image: url("//My-UI-Portfolio/public/images/men-fashion-img.jpg");
+    background-image: url("/My-UI-Portfolio/public/images/men-fashion-img.jpg");
 }
 
 .kid {
-    background-image: url("//My-UI-Portfolio/public/images/kis1-fashion-img.jpg");
+    background-image: url("/My-UI-Portfolio/public/images/kis1-fashion-img.jpg");
 }
 
 
