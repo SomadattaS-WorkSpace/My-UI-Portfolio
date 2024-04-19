@@ -98,7 +98,7 @@ select {
 .entry-point {
     display: grid;
     grid-template-columns: 4fr 4fr 4fr;
-    height: 600px;
+    height: 700px;
     margin-top: 25px;
 }
 
@@ -199,65 +199,84 @@ select {
     color: tomato;
     font-weight: bold;
 }
-.policy-text
-{
+
+.policy-text {
     font-size: 14px;
 }
-.title-container
-{
+
+.title-container {
     text-align: center;
 }
-.title
-{
+
+.title {
     margin-top: 20px;
     font-size: 45px;
     color: black;
     font-weight: bolder;
 }
-.sub-title
-{
+
+.sub-title {
     margin-top: 100px;
     font-weight: bold;
     color: rgb(102, 99, 99);
 }
-.sub-title2
-{
+
+.sub-title2 {
     margin-top: 20px;
     font-size: 15px;
     color: rgb(77, 75, 75);
     line-height: 25px;
     margin-bottom: 70px;
 }
-.best-pick-images
-{
-    width: 75%;
+
+.best-pick-images {
+    width: 73%;
     margin: auto;
-    height: 430px;
 }
-.pick-img-div1, .pick-img-div2
-{
+
+.pick-img-div1,
+.pick-img-div2 {
     display: flex;
     height: 100%;
     justify-content: space-between;
 }
-.bags-collection-img
-{
+
+.bags-collection-img {
     background-image: url("/My-UI-Portfolio/public/images/bag-collection.jpg");
     width: 34%;
     background-position: bottom;
-    text-align: center;
+    padding-left: 8%;
+    height: 430px;
 }
-.printed-mens-img
-{
+
+.printed-mens-img {
     background-image: url("/My-UI-Portfolio/public/images/printed-mens-shirt.jpg");
     width: 62%;
     background-size: cover;
     background-position: center;
     position: relative;
-    /* padding-top: 50%; */
+    padding-left: 7%;
+    height: 430px;
 
 }
-.offer-tag{
+
+.basic-women-dress-img {
+    background-image: url("/My-UI-Portfolio/public/images/basicwomenDress-img.jpg");
+    width: 62%;
+    padding-left: 7%;
+    background-position: center;
+    height: 430px;
+}
+
+.sweetshirts-img {
+    background-image: url("/My-UI-Portfolio/public/images/sweatshirt-img.jpg");
+    width: 34%;
+    padding-left: 8%;
+    padding-top: 6%;
+    height: 430px;
+}
+
+.offer-tag {
     position: absolute;
     height: 100px;
     width: 100px;
@@ -271,12 +290,13 @@ select {
     top: 30px;
     right: 60px;
 }
-.offer-tag p
-{
+
+.offer-tag p {
     font-size: 30px;
 }
-.bags-collection-text, .printed-mens-text
-{
+
+.bags-collection-text,
+.sweetshirts-text {
     padding-top: 50%;
     font-weight: bolder;
     font-size: 30px;
@@ -284,23 +304,342 @@ select {
     text-shadow: 1px 1px 2px black;
     padding-bottom: 20px;
 }
-.bags-collection-btn
-{
+
+.sweetshirts-text {
+    padding-top: 30%;
+}
+
+.printed-mens-text,
+.basic-women-dress-text {
+    padding-top: 25%;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #000;
+    text-shadow: 1px 1px 3px gray;
+    padding-bottom: 20px;
+}
+
+.bags-collection-btn {
     padding: 5px;
     border: none;
     background-color: transparent;
     color: white;
     font-size: 17px;
     text-shadow: 1px 1px 2px black;
-    transition:  padding .5s;
+    transition: padding .5s;
 }
-.bags-collection-img:hover span, .printed-mens-img:hover span
-{
+
+.bags-collection-img:hover span,
+.printed-mens-img:hover span,
+.basic-women-dress-img:hover span,
+.sweetshirts-img:hover span {
     padding-left: 10px;
     transition: .5s;
 }
-.printed-mens-text
-{
+
+.pick-img-div2 {
+    margin-top: 30px;
+}
+
+.top-month-sellers {
+    width: 73%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.top-month-sellers-text {
+    padding-top: 6%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.top-month-sellers-cards {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.top-month-sellers-cards a {
+    font-size: 16px;
+    color: tomato;
+}
+
+.top-month-sellers-cate {
+    padding: 3px 0 3px 0;
+    margin-right: 20px;
+    text-align: center;
+
+}
+
+.top-month-sellers-cate:hover {
+    border-bottom: 0.5px solid tomato;
+}
+
+.top-month-sellers-card {
+    height: 800px;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.top-month-sellers-card-women1 {
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 2.5fr 2.5fr;
+    height: 380px;
+    grid-gap: 35px;
+}
+
+.top-month-sellers-card-div {
+    height: 380px;
+}
+
+.top-month-sellers-card-img1 {
+    background-image: url('/My-UI-Portfolio/public/images/seller-card-pic-1-1.jpg');
+}
+
+.top-month-sellers-card-img2 {
+    background-image: url('/My-UI-Portfolio/public/images/seller-card-pic-2-1.jpg');
+}
+
+.top-month-sellers-card-img3 {
+    background-image: url('/My-UI-Portfolio/public/images/seller-card-pic-3-2.jpg');
+}
+
+.top-month-sellers-card-img4 {
+    background-image: url('/My-UI-Portfolio/public/images/seller-card-pic-4-1.jpg');
+}
+
+.top-month-sellers-card-img5 {
+    background-image: url('/My-UI-Portfolio/public/images/seller-card-pic-5-1.jpg');
+}
+
+.top-month-sellers-card-img6 {
+    background-image: url('/My-UI-Portfolio/public/images/seller-card-pic-6-2.jpg');
+}
+
+.top-month-sellers-card-img7 {
+    background-image: url('/My-UI-Portfolio/public/images/seller-card-pic-7-2.jpg');
+}
+
+.top-month-sellers-card-img8 {
+    background-image: url('/My-UI-Portfolio/public/images/seller-card-pic-8-1.jpg');
+}
+
+.top-month-sellers-card-img1:hover {
+    background-image: url('/My-UI-Portfolio/public/images/seller-card-pic-1-2.jpg');
+}
+
+.top-month-sellers-card-img2:hover {
+    background-image: url('/My-UI-Portfolio/public/images/seller-card-pic-2-2.jpg');
+}
+
+.top-month-sellers-card-img3:hover {
+    background-image: url('/My-UI-Portfolio/public/images/seller-card-pic-3-1.jpg');
+}
+
+.top-month-sellers-card-img6:hover {
+    background-image: url('/My-UI-Portfolio/public/images/seller-card-pic-6-1.jpg');
+}
+
+.top-month-sellers-card-img7:hover {
+    background-image: url('/My-UI-Portfolio/public/images/seller-card-pic-7-1.jpg');
+}
+
+.top-month-sellers-card-img1:hover,
+.top-month-sellers-card-img2:hover,
+.top-month-sellers-card-img3:hover,
+.top-month-sellers-card-img6:hover,
+.top-month-sellers-card-img7:hover {
+    transition: 0.5s;
+}
+
+.top-month-sellers-card-img1,
+.top-month-sellers-card-img2,
+.top-month-sellers-card-img3,
+.top-month-sellers-card-img4,
+.top-month-sellers-card-img5,
+.top-month-sellers-card-img6,
+.top-month-sellers-card-img7,
+.top-month-sellers-card-img8 {
+    height: 280px;
+    width: 100%;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.top-month-sellers-card-text {
+    margin-top: 15px;
+    line-height: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.top-month-sellers-card-img1 span,
+.top-month-sellers-card-img3 span,
+.top-month-sellers-card-img6 span,
+.top-month-sellers-card-img8 span {
+    padding: 5px 11px 5px 11px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.top-month-sellers-card-img1 span,
+.top-month-sellers-card-img6 span {
+    background-color: white;
+
+}
+
+.top-month-sellers-card-img3 span,
+.top-month-sellers-card-img8 span {
+    background-color: #000;
+    color: white;
+}
+
+.top-month-seller-text-down {
+    color: gray;
+}
+
+.top-month-seller-heading-down {
+    font-weight: bold;
+}
+
+.discover {
+    margin-top: 2%;
+    width: 100%;
+}
+
+.discover-text p {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 550;
+    width: 9%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: 6%;
+    border-bottom: 0.5px solid #000;
+}
+
+.discover-banner {
+    background-image: url('/My-UI-Portfolio/public/images/discover-more-banner.jpg');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    padding-left: 50%;
+    padding-top: 10%;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.count-time {
+    font-size: 55px;
+    color: tomato;
+    padding-top: 20px;
+}
+
+.count-day {
+    font-size: 13px;
+    color: gray;
+    word-spacing: 22.5px;
+    padding-left: 35px;
+}
+
+.discover-btn {
+    margin-top: 27px;
+    font-size: 15px;
+    padding: 14px 28px 14px 28px;
+    font-weight: bold;
+    background-color: #000;
+    color: white;
+}
+
+.customer-review {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.customer-review-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+}
+
+.customer-review-text2 {
+    font-size: 30px;
+    font-weight: bold;
     color: #000;
-    text-shadow: 1px 1px 3px gray;
+}
+
+.customer-review-card-warp {
+    height: 350px;
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-gap: 40px;
+}
+
+.customer-review-card {
+    border: 1px solid gray;
+}
+.card-header, .card-body, .card-footer
+{
+    margin: 15px 15px 0 15px;
+    margin-top: 15px;
+}
+.card-header p, .card-body p, .card-footer p
+{
+    text-align: left;
+}
+.card-header
+{
+    display: flex;
+}
+.card-img1, .card-img2, .card-img3{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+.card-img1
+{
+    background-image: url(/My-UI-Portfolio/public/images/card-img1.jpg)
+}
+.card-img2
+{
+    background-image: url(/My-UI-Portfolio/public/images/card-img2.jpg);
+}
+.card-img3
+{
+    background-image: url(/My-UI-Portfolio/public/images/card-img3.jpg);
+}
+.card-details
+{
+    margin-left: 10px;
+}
+.card-Sub-title
+{
+    color: gray;
+}
+.card-title
+{
+    font-weight: bold;
+    margin-top: -5px;
+}
+.card-star
+{
+    margin-left: -50px;
+    color: goldenrod;
+}
+.card-body{
+    height: 200px;
+    margin-bottom: 20px;
+}
+.card-footer
+{
+    margin-bottom: 10px;
+    color: gray;
 }
