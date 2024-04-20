@@ -1,0 +1,10 @@
+[
+    {
+        "title" : "Project A",
+        "imageSrc" : "projects/project.png",
+        "description" : "this is project to learn basic html and css",
+        "skills" : ["HTML", "CSS"],
+        "demo" : "https://somadattas-workspace.github.io/My-UI-Portfolio/public/shopperHome.html",
+        "source" : "https://github.com/SomadattaS-WorkSpace/My-UI-Portfolio"
+    }
+]

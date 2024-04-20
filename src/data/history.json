@@ -1,0 +1,28 @@
+[
+    {
+        "role": "QA Enginner",
+        "organisation": "Paytm",
+        "startDate": "Sept, 2021",
+        "endDate": "jun, 2022",
+        "experiences": [
+            "Performing Regression Testing on both Android & IOS app ",
+            "Functional testing of new features by analyzing product notes and Jira task",
+            "Involved in meeting with Devteam for quicker solution to blockers",
+            "Creating build for Android/IOS using Jenkins integration"
+        ],
+        "imageSrc": "history/paytm.png"
+    },
+    {
+        "role": "Associate Software Enginner",
+        "organisation": "Kuncham Software Solution",
+        "startDate": "Feb, 2020",
+        "endDate": "Sept, 2021",
+        "experiences": [
+            "Wrote and executed manual tests utilizing meticulous attention to details",
+            "Maintained and created product knowledge documentation for use with-in the test team",
+            "Designed product-changing software improvements basedon test run results and client feedback"
+        ],
+        "imageSrc": "history/kuncham.png"
+    }
+
+]
